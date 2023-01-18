@@ -35,7 +35,7 @@
 
 .header-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 4.167vw;
     margin-right: 4.167vw;
     list-style: none;
