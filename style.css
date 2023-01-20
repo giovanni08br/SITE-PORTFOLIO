@@ -25,6 +25,10 @@
     gap: 8px;
 }
 
+.c-role img{
+    width: 2.083vw;
+}
+
 .c-header{
     /* background-color: #000d1c; */
     background-color: #000;
@@ -85,6 +89,15 @@
     line-height: 1.042vw;
 }
 
+@media(max-width:414px){
+    .categorias{
+        display: none;
+    }
+    .idiomas{
+        display: none;
+    }
+}
+
 .introducao-conteudo h1{
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -112,6 +125,7 @@
 .introducao-conteudo img{
     padding-bottom: 2.083vw;
     padding-left: 4.167vw;
+    width: 50vw;
 }
 
 .c-cont-dados{
@@ -280,6 +294,11 @@
 .c-icones-redes{
     display: flex;
     gap: 4.167vw;
+    align-items: center;
+}
+
+.c-icones-redes img{
+    width: 3.125vw;
 }
 
 /* ---PORTFOLIO--- */
@@ -310,6 +329,17 @@
 
 .c-mockup img{
     width: 49.219vw;
+}
+
+@media(max-width:414px){
+    .c-mockup img{
+        width: 35vw;
+        padding-right: 11vw;
+    }
+    .c-titulo-portfolio{
+        font-size: 4vw;
+    }
+
 }
 
 .c-produtos h1{
@@ -367,6 +397,10 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
+}
+
+.c-button img{
+    width: 2vw;
 }
 
 .c-divisor-portfolio{
